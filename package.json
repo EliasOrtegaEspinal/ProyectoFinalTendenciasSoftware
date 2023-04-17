@@ -1,0 +1,14 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "A chat app built with Node.js and WebSocket",
+  "main": "server.js",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ws": "^8.5.0"
+  },
+  "scripts": {
+    "start": "node src/server.js"
+  }
+}
